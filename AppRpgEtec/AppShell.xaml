@@ -36,8 +36,6 @@
                   ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage" />
 
         <Tab Title="Usuários" Route="usuarios" Icon="menuusuarios.svg">
-            <ShellContent Title="Usuários"
-                ContentTemplate="{DataTemplate viewsUsuarios:ListagemView}" />
 
             <ShellContent Title="Tempo Real"
                 ContentTemplate="{DataTemplate viewsUsuarios:Localizacao}"/>
